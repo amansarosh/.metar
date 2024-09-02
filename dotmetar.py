@@ -9,9 +9,9 @@ client = discord.Client(intents=discord.Intents.all())
 
 # Zulu Day in time in DDHHMMZ Format
 now_utc = datetime.datetime.utcnow() # Get current UTC time
-day = now_utc.strftime('%d') # Get day of the month as a string
-hour = now_utc.strftime('%H') # Get hour as a string
-minute = now_utc.strftime('%M') # Get minute as a string
+day = now_utc.strftime('%d-') # Get day of the month as a string
+hour = now_utc.strftime('%H:') # Get hour as a string
+minute = now_utc.strftime('%M:') # Get minute as a string
 zulu_time = day + hour + minute + 'Z' # Concatenate strings to form the desired format
 
 
