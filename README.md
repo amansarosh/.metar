@@ -3,4 +3,5 @@
 
 ## How to use it?
 To use .metar, the user must ensure the bot is running, then enter the command ```.metar [airport_icao] -f``` to receive the full information in the server. The output should look like this.
-![metar](https://github.com/user-attachments/assets/41df4dc2-6d32-4107-a8b8-1646f1574f6c)
+![metar](https://github.com/user-attachments/assets/4219c904-8f72-44f3-baa6-4c8798f9ca0c)
+
